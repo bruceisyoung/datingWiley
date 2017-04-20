@@ -1,0 +1,17 @@
+.navbar {
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+  height: 750px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background: url('../images/donateWiley.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;  
+}
+
+.introduction p {
+	font-size: 18px;
+}
