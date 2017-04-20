@@ -6,7 +6,7 @@ import { Component, View } from "angular2/core"
 
 @View({
   template: 
-  `<nav class="navbar navbar-inverse">
+  `<nav class="navbar navbar-inverse navbar-fixed-top">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -19,8 +19,8 @@ import { Component, View } from "angular2/core"
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
 	        <li><a href="#">Home</a></li>
-	        <li><a href="#">Wiley's Story</a></li>
-	        <li><a href="#">How To Play?</a></li>
+	        <li><a href="#introduction">Wiley's Story</a></li>
+	        <li><a href="#howtoplay">How To Play?</a></li>
 	        <li><a href="#">Auctions</a></li> 
 	      </ul>
 	    </div>
