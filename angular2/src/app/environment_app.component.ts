@@ -1,4 +1,3 @@
-import { bootstrap } from "angular2/platform/browser"
 import { Component, View } from "angular2/core";
 
 @Component({
@@ -10,6 +9,10 @@ import { Component, View } from "angular2/core";
   `
     <my-navbar>Loading Navbar</my-navbar>
     <my-jumbotron>Loading Jumbotron</my-jumbotron>
+    <my-introduction>to be built</my-introduction>
+    <my-playguide>to be built</my-playguide>
+    <my-itemList>to be built</my-itemList>
+    <my-footer>to be built</my-footer>
   `
 })
 

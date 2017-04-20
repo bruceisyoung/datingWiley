@@ -12,6 +12,11 @@
   background-position: center center;  
 }
 
-.introduction p {
+.intro {
+	margin: 20px 0;
 	font-size: 18px;
+}
+
+.media-object {
+	border-radius: 5px
 }
